@@ -63,7 +63,11 @@
     {{ nav_footer_custom }}
   {% else %}
     <footer class="site-footer">
+      {%- if site.site_footer -%}
+        <p class="text-small text-grey-dk-100 mb-0">{{ site.site_footer }}</p>
+      {% else %}
       This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      {%- endif -%}
     </footer>
   {% endif %}
 </div>

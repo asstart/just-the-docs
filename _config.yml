@@ -178,3 +178,8 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+# Propertis created in a fork https://github.com/asstart/just-the-docs
+
+# Customizing site footer
+site_footer: This site powered by <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll and <a href="https://github.com/asstart/obsidian-publish-action">Obsidian Publish Action</a>, a GitHub action for publishing <a href="https://obsidian.md/">Obsidian</a> notes
